@@ -1,0 +1,35 @@
+1. Newton's Second Law
+
+STORE "mass" with 600kg
+STORE "acceleration" with 2 m / s2
+STORE "area" without any value
+
+CALCULATE "mass" times "acceleration"
+SET "area" value with calculation result
+
+DISPLAY "area"
+
+2. Leap Year
+
+Leap year
+INPUT year
+IF year MOD 4 equals zero then
+IF year MOD 100 equals not zero OR year MOD 100 equals zero AND year MOD 400 equals zero
+DEFINE year as leap
+
+3. Laundry Day
+
+STORE "laundry" with 0
+WHILE "laundry" <20
+ADD "laundry" by 1
+  
+DISPLAY "Laundry process"
+
+4. Check the Nails
+
+STORE "short nails"
+STORE "long nails"
+IF "long"
+DISPLAY "got a punishment from the teacher"
+ELSE
+DISPLAY "received praise from the teacher"
